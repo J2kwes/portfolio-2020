@@ -1,0 +1,30 @@
+@import "../../styles/vars.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .title {
+    font: Bold 20px/24px "Montserrat";
+    color: $darkGray;
+    span {
+      color: $blue;
+    }
+  }
+  .btn {
+    font: Bold 15px/17px 'Montserrat';
+    background-color: $blue;
+    padding: 4px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    a {
+        color: $gray;
+    }
+    i {
+        margin-left: 5px;
+        color: $gray;
+        font-size: 25px;
+    }
+  }
+}
